@@ -8,3 +8,9 @@ let number = 4;
 export function multiplyByFour(num) {
   return 4 * num;
 }
+
+const multiplyByFour = (num) => {
+  return 4 * num;
+};
+
+module.exports = multiplyByFour;
