@@ -4,7 +4,7 @@ export let bulb = {
   type: "LED",
 };
 
-// let number = 4;
+// with out this(let number = 4;) also we got the output
 // export function multiplyByFour(num) {
 //   return 4 * num;
 // }
