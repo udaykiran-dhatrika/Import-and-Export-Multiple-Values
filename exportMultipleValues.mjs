@@ -25,5 +25,6 @@ export const multiplyByFour = function (num) {
 export const multiplyByFour = (num) => {
   return 4 * num;
 };
+
 // we already exported while defining in the above line 25
 export { multiplyByFour };
