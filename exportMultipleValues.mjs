@@ -4,13 +4,26 @@ export let bulb = {
   type: "LED",
 };
 
-// with out this(let number = 4;) also we got the output
-// export function multiplyByFour(num) {
-//   return 4 * num;
-// }
 
-const multiplyByFour = (num) => {
+
+// with out this(let number = 4;) also we got the output
+// function declaration
+export function multiplyByFour(num) {
   return 4 * num;
+}
+
+
+
+// function expression
+export const multiplyByFour = function (num) {
+  return num * 4;
 };
 
+
+
+// arrow function
+export const multiplyByFour = (num) => {
+  return 4 * num;
+};
+// we already exported while defining in the above line 25
 export { multiplyByFour };
